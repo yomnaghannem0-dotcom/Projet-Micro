@@ -6,7 +6,7 @@ Value=0
 [BUILD_TYPE]
 Value=0
 [ACTIVE_TAB]
-Value=pratique2.c
+Value=pratique1.c
 [USE_EEPROM]
 Value=0
 [USE_HEAP]
@@ -17,8 +17,7 @@ Value=0
 Value=
 [FILES]
 File0=pratique1.c
-File1=pratique2.c
-Count=2
+Count=1
 [BINARIES]
 Count=0
 [IMAGES]
@@ -26,8 +25,7 @@ Count=0
 ActiveImageIndex=-1
 [OPENED_FILES]
 File0=pratique1.c
-File1=pratique2.c
-Count=2
+Count=1
 [EEPROM]
 Count=0
 [ACTIVE_COMMENTS_FILES]
@@ -43,9 +41,15 @@ Count=0
 [PLDS]
 Count=0
 [Useses]
-Count=0
+File0=Lcd
+File1=Lcd_Constants
+File2=ADC
+File3=Conversions
+File4=C_String
+Count=5
 [EXPANDED_NODES]
-0=pratique1.mcppi
-Count=1
-[LIB_EXPANDED_NODES]
 Count=0
+[LIB_EXPANDED_NODES]
+0=mikroE Libraries
+1=System Libraries
+Count=2
